@@ -10,13 +10,14 @@ export function Navigation() {
 
   const navLinks = [
     { href: "/", label: "Home" },
+    { href: "/who-we-are", label: "Who We Are" }, // replaced Products & Services with Who We Are
+    { href: "/about-hemp", label: "About Hemp" }, // added About Hemp section
     { href: "/farm-bills", label: "USDA Farm Bills" },
-    { href: "/products-services", label: "Products & Services" },
     { href: "/funding-aid", label: "Funding & Aid" },
     { href: "/meetings", label: "Monthly Meetings" },
     { href: "/blog", label: "Resources" },
-    { href: "/enotrium", label: "Enotrium" }, // Added Enotrium link to navigation
-    { href: "/members", label: "Members" }, // Added Members link to navigation
+    { href: "/enotrium", label: "Enotrium" },
+    { href: "/members", label: "Members" },
   ]
 
   const handleLinkClick = () => {

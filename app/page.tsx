@@ -3,7 +3,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Sprout, Leaf, Factory, Droplets, Wheat, Hammer, Shield, Bug } from "lucide-react"
+import { Sprout, Leaf, Factory, Droplets, Wheat, Hammer, Shield, Bug, Cloud } from "lucide-react"
 
 export default function HomePage() {
   const handleLinkClick = () => {
@@ -16,14 +16,14 @@ export default function HomePage() {
       <section className="relative h-[400px] md:h-[500px] overflow-hidden">
         <img
           src="/industrial-hemp-bud-close-up-natural-lighting.jpg"
-          alt="Industrial hemp bud"
+          alt="Industrial hemp"
           className="absolute inset-0 h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/20" />
         <div className="relative container mx-auto px-4 h-full flex items-center justify-center">
           <div className="text-center max-w-3xl">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 text-balance drop-shadow-lg">
-              The Future of Farming is Hemp
+              The New Green Revolution
             </h1>
             <p className="text-lg md:text-xl text-white/95 leading-relaxed text-pretty drop-shadow-md">
               Discover why industrial hemp is revolutionizing sustainable agriculture
@@ -37,13 +37,14 @@ export default function HomePage() {
         <div className="container mx-auto px-4">
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="text-4xl font-bold tracking-tight text-primary-foreground md:text-5xl text-balance">
-              Why Industrial Hemp?
+              Hemp as a Path Forward
             </h2>
             <p className="mt-6 text-lg text-primary-foreground/90 leading-relaxed text-pretty">
-              Industrial hemp is one of the most versatile and sustainable crops on Earth. Fast-growing,
-              disease-resistant, and capable of healing contaminated soil, hemp offers farmers a profitable path to
-              regenerative agriculture. From construction materials to nutrition, hemp is transforming industries while
-              restoring our planet.
+              Industrial hemp represents a sustainable path toward agricultural resilience and environmental
+              restoration. As one of the most versatile crops on Earth, hemp offers farmers a profitable route to
+              regenerative agriculture while addressing climate challenges. Fast-growing, disease-resistant, and capable
+              of healing contaminated soil, hemp is transforming industries from construction to nutrition—all while
+              restoring our planet and building resilient communities.
             </p>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:justify-center">
               <Link href="/signup" onClick={handleLinkClick}>
@@ -51,13 +52,13 @@ export default function HomePage() {
                   Join the Co-op
                 </Button>
               </Link>
-              <Link href="/products-services" onClick={handleLinkClick}>
+              <Link href="/who-we-are" onClick={handleLinkClick}>
                 <Button
                   size="lg"
                   variant="outline"
                   className="bg-transparent text-primary-foreground border-primary-foreground hover:bg-primary-foreground/10"
                 >
-                  Explore Resources
+                  Learn More
                 </Button>
               </Link>
             </div>
@@ -98,6 +99,19 @@ export default function HomePage() {
                 <p className="text-sm text-muted-foreground leading-relaxed">
                   Naturally robust against pests and diseases, hemp requires minimal pesticides or herbicides, making it
                   ideal for organic and sustainable farming practices.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-sm">
+              <CardContent className="pt-6">
+                <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-primary/10">
+                  <Cloud className="h-6 w-6 text-primary" />
+                </div>
+                <h3 className="mb-2 text-xl font-bold text-card-foreground">Carbon Sequestration</h3>
+                <p className="text-sm text-muted-foreground leading-relaxed">
+                  Hemp absorbs more CO2 per hectare than most crops and forests, capturing 1.63 tons of carbon per ton
+                  of hemp grown. It's one of nature's most effective carbon sinks.
                 </p>
               </CardContent>
             </Card>

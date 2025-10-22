@@ -54,11 +54,27 @@ export default function FundingAidPage() {
                   Access USDA grant programs including Beginning Farmer and Rancher Development Program, Value-Added
                   Producer Grants, and Specialty Crop Block Grants.
                 </p>
-                <ul className="text-sm space-y-2 text-muted-foreground">
+                <ul className="text-sm space-y-2 text-muted-foreground mb-4">
                   <li>• Up to $250,000 in funding</li>
                   <li>• Equipment and infrastructure</li>
                   <li>• Training and education support</li>
                 </ul>
+                <div className="flex flex-col gap-2">
+                  <Button variant="outline" size="sm" className="bg-transparent" asChild>
+                    <a
+                      href="https://www.nifa.usda.gov/grants/programs/beginning-farmer-rancher-development-program-bfrdp"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      BFRDP Program
+                    </a>
+                  </Button>
+                  <Button variant="outline" size="sm" className="bg-transparent" asChild>
+                    <a href="https://vapg.rd.usda.gov" target="_blank" rel="noopener noreferrer">
+                      Value-Added Grants
+                    </a>
+                  </Button>
+                </div>
               </CardContent>
             </Card>
 
@@ -73,11 +89,20 @@ export default function FundingAidPage() {
                   FSA offers direct and guaranteed loans for farm ownership, operating expenses, and emergency
                   assistance with favorable terms for beginning farmers.
                 </p>
-                <ul className="text-sm space-y-2 text-muted-foreground">
+                <ul className="text-sm space-y-2 text-muted-foreground mb-4">
                   <li>• Low interest rates (1-5%)</li>
                   <li>• Up to $600,000 available</li>
                   <li>• Flexible repayment terms</li>
                 </ul>
+                <Button variant="outline" size="sm" className="bg-transparent" asChild>
+                  <a
+                    href="https://www.fsa.usda.gov/programs-and-services/farm-loan-programs/native-american-loans/index"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    FSA Tribal Loans
+                  </a>
+                </Button>
               </CardContent>
             </Card>
 
@@ -92,11 +117,16 @@ export default function FundingAidPage() {
                   Special programs through the Office of Tribal Relations including the Indian Land Tenure Foundation
                   grants and Native American Agriculture Fund.
                 </p>
-                <ul className="text-sm space-y-2 text-muted-foreground">
+                <ul className="text-sm space-y-2 text-muted-foreground mb-4">
                   <li>• Priority for tribal members</li>
                   <li>• Cultural preservation support</li>
                   <li>• Community development funds</li>
                 </ul>
+                <Button variant="outline" size="sm" className="bg-transparent" asChild>
+                  <a href="https://nativeamericanagriculturefund.org/" target="_blank" rel="noopener noreferrer">
+                    NAAF Grants
+                  </a>
+                </Button>
               </CardContent>
             </Card>
           </div>
@@ -117,8 +147,10 @@ export default function FundingAidPage() {
                   Many states offer additional grant programs for sustainable agriculture, organic certification, and
                   farm-to-market initiatives.
                 </p>
-                <Button variant="outline" size="sm" className="mt-2 bg-transparent">
-                  Find State Programs
+                <Button variant="outline" size="sm" className="mt-2 bg-transparent" asChild>
+                  <a href="https://www.farmers.gov/your-business/tribal" target="_blank" rel="noopener noreferrer">
+                    Find State Programs
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -134,8 +166,14 @@ export default function FundingAidPage() {
                   NRCS conservation programs provide financial assistance for implementing sustainable practices, soil
                   health, and water conservation.
                 </p>
-                <Button variant="outline" size="sm" className="mt-2 bg-transparent">
-                  Learn More
+                <Button variant="outline" size="sm" className="mt-2 bg-transparent" asChild>
+                  <a
+                    href="https://www.nrcs.usda.gov/programs-initiatives/eqip-environmental-quality-incentives"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    NRCS Programs
+                  </a>
                 </Button>
               </CardContent>
             </Card>
@@ -155,10 +193,15 @@ export default function FundingAidPage() {
               <div className="space-y-4">
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Agricultural Foundations</h4>
-                  <p className="text-sm text-muted-foreground">
+                  <p className="text-sm text-muted-foreground mb-2">
                     Organizations like the Sustainable Agriculture Research and Education (SARE) program, National Young
                     Farmers Coalition, and various agricultural foundations offer grants ranging from $5,000 to $50,000.
                   </p>
+                  <Button variant="outline" size="sm" className="bg-transparent" asChild>
+                    <a href="https://www.sare.org/grants/" target="_blank" rel="noopener noreferrer">
+                      SARE Grants
+                    </a>
+                  </Button>
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Community Development Financial Institutions</h4>
