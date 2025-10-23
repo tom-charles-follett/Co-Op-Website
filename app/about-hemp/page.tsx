@@ -204,10 +204,12 @@ export default function AboutHempPage() {
             </div>
 
             <div className="text-center">
-              <Button variant="outline" className="gap-2 bg-transparent">
-                Download Benefits of Hemp Booklet
-                <ExternalLink className="h-4 w-4" />
-              </Button>
+              <Link href="/hemp-benefits-booklet.pdf" download="Hemp-Benefits-Booklet.pdf">
+                <Button variant="outline" className="gap-2 bg-transparent">
+                  Download Benefits of Hemp Booklet
+                  <ExternalLink className="h-4 w-4" />
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
