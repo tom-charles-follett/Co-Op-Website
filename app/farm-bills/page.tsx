@@ -291,7 +291,7 @@ export default function FarmBillsPage() {
                 <CardContent>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Dedicated funding and technical assistance for tribal agricultural operations, including support for
-                    traditional food systems and sovereignty initiatives.
+                    traditional food systems and community initiatives.
                   </p>
                   <Button variant="link" className="mt-4 h-auto p-0 text-primary">
                     Learn More <ExternalLink className="ml-1 h-4 w-4" />

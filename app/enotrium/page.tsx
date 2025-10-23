@@ -35,8 +35,8 @@ export default function EnotriumPage() {
       {/* Banner */}
       <div className="relative h-[400px] w-full md:h-[500px]">
         <img
-          src="/professional-minimalist-supply-chain-network.jpg"
-          alt="Professional supply chain network visualization"
+          src="/high-tech-digital-globe-with-glowing-network-lines.jpg"
+          alt="High-tech digital globe with network connections"
           className="h-full w-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/50" />
