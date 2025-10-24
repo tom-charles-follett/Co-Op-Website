@@ -4,7 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Updated color palette for indigenous farmers co-op - earthy, warm tones */
+  /* Updated color palette for industrial hemp co-op - earthy, warm tones */
   --background: oklch(1 0 0);
   --foreground: oklch(0.25 0.02 60);
   --card: oklch(1 0 0);

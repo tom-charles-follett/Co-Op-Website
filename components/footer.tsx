@@ -14,9 +14,10 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           {/* About */}
           <div className="space-y-4">
-            <h3 className="text-lg font-bold text-card-foreground">Indigenous Farmers Co-op</h3>
+            <h3 className="text-lg font-bold text-card-foreground">Industrial Hemp Co-op</h3>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Rooted in tradition, growing the future through sustainable agriculture and community empowerment.
+              Supporting hemp farmers with resources, funding, and community for sustainable industrial hemp
+              cultivation.
             </p>
           </div>
 
@@ -99,7 +100,7 @@ export function Footer() {
                 <Instagram className="h-5 w-5" />
               </a>
               <a
-                href="mailto:info@indigenousfarmers.coop"
+                href="mailto:info@industrialhempcoop.org"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 aria-label="Email"
               >
@@ -110,7 +111,7 @@ export function Footer() {
         </div>
 
         <div className="mt-8 border-t border-border pt-8 text-center text-sm text-muted-foreground">
-          <p>© {new Date().getFullYear()} Indigenous Farmers Co-op. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Industrial Hemp Co-op. All rights reserved.</p>
         </div>
       </div>
     </footer>

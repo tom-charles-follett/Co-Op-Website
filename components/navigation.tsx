@@ -31,7 +31,7 @@ export function Navigation() {
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2" onClick={handleLinkClick}>
-            <div className="text-xl font-bold text-primary">Indigenous Farmers Co-op</div>
+            <div className="text-xl font-bold text-primary">Industrial Hemp Co-op</div>
           </Link>
 
           {/* Desktop Navigation */}

@@ -16,9 +16,9 @@ const quicksand = Quicksand({
 })
 
 export const metadata: Metadata = {
-  title: "Indigenous Farmers Co-op | Rooted in Tradition, Growing the Future",
+  title: "Industrial Hemp Co-op | Sustainable Hemp Farming & Resources",
   description:
-    "A cooperative of indigenous farmers dedicated to sustainable agriculture, traditional practices, and community empowerment.",
+    "A cooperative dedicated to industrial hemp cultivation, sustainable agriculture, and supporting hemp farmers with resources, funding, and community.",
   generator: "v0.app",
 }
 

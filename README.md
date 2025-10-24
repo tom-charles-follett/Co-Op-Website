@@ -1,4 +1,4 @@
-# Indigenous farmer website
+# Industrial Hemp Co-op
 
 *Automatically synced with your [v0.app](https://v0.app) deployments*
 
