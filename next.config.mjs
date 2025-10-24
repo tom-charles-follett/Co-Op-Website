@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -9,10 +10,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  output: 'export',
-  trailingSlash: true,
-  basePath: process.env.NODE_ENV === 'production' ? '/Co-Op-Website' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Co-Op-Website/' : '',
 }
 
 export default nextConfig
